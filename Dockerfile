@@ -1,6 +1,6 @@
 FROM python:3.11-alpine
 
-ENV DJANGO_SETTINGS_MODULE=docker_deploy.settings
+# ENV DJANGO_SETTINGS_MODULE=docker_deploy.settings
 ENV DEBUG=False
 ENV ALLOWED_HOSTS=localhost
 
